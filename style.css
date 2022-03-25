@@ -173,3 +173,50 @@ li {
   justify-content: flex-end;
   margin: 0px 20% 9% 20%;
 }
+
+.sign-up {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 9% 20%
+}
+
+.big-card {
+  display: flex;
+  flex-direction: row;
+  gap: 25%;
+  flex: 1 0 auto;
+  background-color: #3882F6;
+  padding: 7% 20%;
+  border: 10px;
+  border-color: white;
+  border-radius: 8px;
+}
+
+.sign-up-text-heading {
+  font-weight: bolder;
+  color: white;
+}
+
+.sign-up-subtext {
+  color: white;
+}
+
+.sign-up-text-heading {
+  font-size: 20px;
+}
+
+.text-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sign-up-button {
+  width: 35%;
+  border: 3px solid white;
+  border-radius: 8px;
+  font-weight: bolder;
+  padding: 1% 2%;
+  color: white;
+}
