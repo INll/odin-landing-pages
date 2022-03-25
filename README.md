@@ -2,6 +2,8 @@
 
 After ploughing through CSS and Flexbox in five days, I’ve finally reached my second project in TOP. Let’s get this done.
 
+
+
 All rights of the mateirals belonged to the following sources:
 
 - [https://www.hotels.com/go/canada](https://www.hotels.com/go/canada)
