@@ -5,6 +5,18 @@ body {
 .banner {
   background-color: #1F2937;
   margin: -11px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.header-logo {
+  color: #F9FAF8;
+  display: flex;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  padding: 0px 0px 0px 11%;
 }
 
 a {
@@ -15,7 +27,62 @@ a {
 
 .header-links {
   display: flex;
-  margin: 0px 10%;
+  margin: 0px 10% 0px 0px;
+}
+
+.header {
+  display: flex;
+  gap: 30px;
+  justify-content: space-around;
+  background-color: #1F2937;
+  margin: -11px;
+}
+
+.hero-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 10% 10px 10%;
+  padding: 0px 0px 0px 10%;
+  flex: 0 1 auto;
+  gap: 5px;
+}
+
+.big-heading {
+  font-size: 48px;
+  font-weight: extra-bold;
+  color: #F9FAF8;
+}
+
+.subtext {
+  font-size: 16px;
+  color: #E5E7EB;
+}
+
+.sign-up-button-hero {
+  padding: 7px 23px;
+  border: 0;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #3882F6;
+  margin: 5% 0px;
+}
+
+img {
+  max-width: 30vw;
+  max-height: 25vw;
+}
+
+.image {
+  display: flex;
+  align-items: center;
+  padding: 0px 10% 0px 0px;
+  margin: 0px 0px 0px 20px;
 }
 
 ul {
@@ -29,27 +96,3 @@ ul {
 li {
   list-style-type: none;
 }
-
-.header-logo {
-  color: #F9FAF8;
-  display: flex;
-  font-size: 24px;
-  align-items: center;
-  justify-content: flex-start;
-  padding: 0px 10px;
-  font-weight: 900;
-  flex: 1 0 auto;
-  margin: 0px 10%;
-}
-
-img {
-  max-width: 70vw;
-  max-height: 70vw;
-}
-
-.banner {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
